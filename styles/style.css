@@ -162,6 +162,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 1;
 }
 
 .content__video-card-description {
