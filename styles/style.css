@@ -62,8 +62,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  height: 54px;
+  align-items: flex-start; 
 }
 
 .content__details {
@@ -71,12 +70,11 @@ ol {
 }
 
 .title {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
-  font-style: Bold;
+  font-style: bold;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -86,18 +84,16 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .content__list-container {
   position: relative;
   height: 298px;
   margin-top: 26px;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .content__list {
@@ -119,7 +115,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: inherit;
+  background-color: rgba(0,0,0,0);
 }
 
 .content__card-link:active {
@@ -159,10 +155,10 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  font-style: Bold;
+  font-style: bold;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -171,7 +167,7 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -215,7 +211,7 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   background-color: inherit;
@@ -273,14 +269,13 @@ ol {
 }
 
 .button {
+  height: 34px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: bold;
-  line-height: 100%;
-  letter-spacing: 0%;
   background-color: inherit;
   cursor: pointer;
 }
@@ -288,7 +283,6 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
